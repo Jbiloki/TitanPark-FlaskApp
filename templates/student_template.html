@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102750725-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<head>
+    <title>{{title}}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="../static/index.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+</head>
+
+<body>
+    <div class='container'>
+        <h1>Titan<text class='darker'>Park</text></h1>
+        <h4>beta</h4>
+        <h2>Parking Availability Prediction</h2>
+        <h3>Enter your date and time (24 hour clock)</h3>
+        <div class='content'>
+            {% block body %}{% endblock %}
+            <a href='https://github.com/Jbiloki/TitanPark/tree/master'><button class='bottom'>See how we got your result</button></a>
+            <a href='https://www.patreon.com/titanpark'><button>Support the developers</button></a>
+
+        </div>
+    </div>
+</body>
+
+<div>
+    <center>
+        <div><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Try%20TitanPark%20for%20help%20finding%20CSUF%20parking%20" data-size="large">
+  Share on twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+        <div class="fb-share-button" data-href="https://titanpark.herokuapp.com" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftitanpark.herokuapp.com%2F&amp;src=sdkpreparse">Share</a></div>
+    </center>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=228428214246150";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</html>

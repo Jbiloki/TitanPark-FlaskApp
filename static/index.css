@@ -1,0 +1,184 @@
+body, html {
+  background-color: #E67B3B;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: #ffffff;
+  width: 520px;
+  box-sizing: border-box;
+  padding: 30px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  color: #E67B3B;
+  margin: 0px 0px 0px;
+}
+
+
+.break{
+  width: 90%;
+  background: #f3f3f3;
+  height: 2px;
+  margin: 20px auto;
+}
+
+
+h2{
+  margin: 0px 5px 20px;
+}
+
+.content{
+  margin: 30px 0px 30px;
+}
+
+.bottom{
+  margin-bottom: 20px;
+}
+
+.grey{
+  background: #eeeeee;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  border: 0px;
+  background: #E67B3B;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: inherit;
+  color: #fff;
+  margin: 0px 5px;
+}
+
+.darker{
+  color: #333;
+}
+
+h4 {
+  color: #E67B3B;
+  margin: 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.return{
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.return::after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  transition: 500ms background-color ease-in;
+  bottom: -5px;
+  left: 0;
+  background-color: #efefef;
+}
+
+.timepicker,
+.datepicker{
+  font-size: 24px;
+padding: 20px;
+margin-bottom: 10px;
+border-radius: 3px;
+border: 1px solid #efefef;
+text-align: center;
+font-weight: 600;
+font-family: inherit;
+}
+
+
+.return:hover::after{
+  background-color: #E67B3B;
+}
+
+
+.cetre{
+  height: 400px;
+  position: absolute;
+  top:50%;
+  margin-top: -200px;
+  left: 50%;
+  margin-left: -300px;
+}
+
+.full{
+  width: 50%;
+  height: 100%;
+  background-image: url(https://nuransaid.files.wordpress.com/2012/09/alteir-1.jpg);
+  background-size: auto 100%;
+  background-position: bottom;
+  position: absolute;
+  right: 0px;
+}
+
+.fullerton{
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  left:0;
+}
+
+.buttonscenter{
+  margin: 0 auto;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.poweredbottom{
+  text-align: center;
+  width: 250px;
+  margin: 30px auto;
+}
+
+.headingcontainer{
+  padding: 20px 0px;
+}
+
+.twitter-share-button{
+  padding-top: 10px
+}
+.poweredlogos{
+  text-align: center;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.poweredlogos img{
+  height: 50px;
+}
+
+.initial{
+  display: block;
+}
+
+.step2{
+  display: none;
+}
+
+.step2full, .step2notfull{
+  display: none;
+}

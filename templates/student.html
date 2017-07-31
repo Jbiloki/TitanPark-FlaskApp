@@ -1,0 +1,11 @@
+{% extends 'student_template.html' %}
+{% block body %}
+<h4>When are you arriving?</h4>
+<form action='/predict' method='post'><input class='datepicker' value={{currDay}} name='date'>
+    <input class='timepicker' value={{currTime}} name='time'>
+    </div>
+    <div class='bottom initial'>
+        <button class='grey'>Forecast</button>
+
+</form>
+{% endblock %}

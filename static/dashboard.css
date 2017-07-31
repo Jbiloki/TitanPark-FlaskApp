@@ -1,0 +1,124 @@
+body, html {
+  background-color: #f3f3f3;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto'
+}
+
+header {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+  display: flex;
+  line-height: 68px;
+  justify-content: space-between;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+
+.content{
+  max-width: 100%;
+  height: calc(100% - 68px);
+  overflow-y: scroll;
+}
+
+.welcome{
+  padding: 20px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.parking-health-status > *{
+  color: #fff;
+      width: 90px;
+      padding: 5px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 3px;
+      font-weight: 600;
+}
+
+.status-full{
+  background-color: red;
+}
+
+.status-poor{
+  background-color: #e67b3b;
+}
+
+.status-fair{
+  background-color: #7cb5ec;
+}
+
+.status-healthy{
+  background-color: #72b372;
+}
+
+.parking-health-bar{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.parking-health-name{
+  text-transform: capitalize;
+}
+
+.welcome-inner{
+  background-color: #eeeeee;
+  display: block;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.grid > * {
+  position: absolute;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+
+}
+
+.health{
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.chart{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo{
+  font-weight: 800;
+  color: #E67B3B;
+  font-size: 25px;
+}
+
+.highcharts-title{
+  text-transform: capitalize;
+}
+
+.logo text{
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a{
+  padding: 0px 20px;
+}
