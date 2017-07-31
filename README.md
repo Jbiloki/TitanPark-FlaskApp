@@ -1,4 +1,4 @@
-## TitanPark
+# TitanPark
 
 Using a web interface trained on years of past sensor data at the CSUF parking structures an algorithm was trained to predict future parking habits.
 
@@ -6,9 +6,9 @@ Titan park was create to support students to find better parking as well as a pr
 
 The current MSE for the eastside structure is ~27 spots. This error can be reduced as I continue my work over time.
 
-# Current algorithms implemented:
+## Current algorithms implemented:
 
-# Gradient Boosting
+## Gradient Boosting
 
 This dataset is connected and can be used, on the server I have implemented an GBR with Sklearn.
 
